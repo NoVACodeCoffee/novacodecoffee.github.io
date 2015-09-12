@@ -1,4 +1,21 @@
+// Set Colors
+$cc-blue: #13C0D7;
+$cc-brown: #7C6E63;
+$cc-black: #3E3731;
+
+// Casey-generated colors
+$cc-brown-light: #89796D;
+$cc-brown-lighter: #C8B2A0;
+$cc-brown-lightest: #FFF1E5;
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
+  font-weight: 700;
+}
+.jumbotron {
+  background-color: $cc-brown-lightest;
+}
+a, a:visited, .btn-default {
+  color: $cc-blue;
 }
