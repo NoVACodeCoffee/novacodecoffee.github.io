@@ -4,4 +4,16 @@ layout: default
 
 {% include banner.html %}
 
-{% include twitter_widget.html %}
+<div class="row">
+  <div class="col-md-4">
+    {% include events.html %}
+  </div>
+
+  <div class="col-md-4">
+    <h2>Another Column</h2>
+  </div>
+
+  <div class="col-md-4">
+    {% include twitter_widget.html %}
+  </div>
+</div>
