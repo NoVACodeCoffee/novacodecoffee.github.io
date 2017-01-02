@@ -1,4 +1,94 @@
+$brand-teal: #13c0d7;
+$brand-teal-dark: #0299AE;
+$brand-brown: #433A33;
+$brand-brown-light: #E7DCD3;
+$slightly-bold: 500;
+
+a {
+  text-decoration: none;
+  color: $brand-teal;
+  &:visited {
+    color: $brand-teal;
+  }
+  &:hover {
+    color: $brand-teal-dark;
+    text-decoration: none;
+  }
+}
+
+.teal {
+  color: $brand-teal;
+}
+
+.btn-teal {
+  background: white;
+  border: 2px solid $brand-teal;
+}
+
+.slightly-bold {
+  font-weight: $slightly-bold;
+}
+
+.jumbotron {
+  background-color: $brand-brown-light;
+  border-bottom: 1px solid $brand-teal;
+  h2 {
+    display: inline-block;
+    border-bottom: 1px solid black;
+  }
+  color: $brand-brown;
+  p {
+    font-size: 20px;
+  }
+}
+
+.panel-default {
+  border: 1px solid $brand-teal;
+  &>.panel-heading {
+    font-weight: $slightly-bold;
+    background-color: $brand-brown-light;
+    border-bottom: 1px solid $brand-teal;
+  }
+}
+
 .navbar {
   margin-bottom: 0px;
-  border-radius: 0px;
+  border-bottom: 3px solid $brand-teal;
+  height: 70px;
+  a {
+    font-size: 1.3em;
+    font-weight: $slightly-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .titleUpper {
+    font-size: 20px;
+  }
+
+  .titleLower {
+    text-align: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .navbar-nav {
+    margin-top: 6px;
+    font-size: 18px;
+  }
+
+}
+
+.instagram-image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.instagram-image-link {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.instagram-image {
+  height: 150px;
 }
