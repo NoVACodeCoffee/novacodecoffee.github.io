@@ -39,3 +39,14 @@ There are currently three Code &amp; Coffee groups in the DMV:
 - [novacodecoffee.com](http:novacodecoffee.com)
 - [dccodecoffee.com](http://www.dccodecoffee.com/)
 - [alxcodecoffee.com](http://alxcodecoffee.com/)
+
+## Docker
+If you already use [Docker](https://docker.com) you can easily run the app locally with:
+
+`docker-compose up`
+
+If you are interested in Docker I encourage you to try installing Docker and giving it a try.
+
+#### Setup
+* Install Docker
+* We have included a v1 and v2 docker-compose file. Just uncomment the one you need. That's pretty much it
