@@ -156,6 +156,21 @@
     }
 }
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.left-footer{
+    margin: 50px 20px;
+}
+.right-footer{
+    margin: 50px 20px;
+}
+
 
 
 /**
