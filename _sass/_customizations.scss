@@ -1,7 +1,7 @@
 $brand-teal: #13c0d7;
-$brand-teal-dark: #0299AE;
-$brand-brown: #433A33;
-$brand-brown-light: #E7DCD3;
+$brand-teal-dark: #0299ae;
+$brand-brown: #433a33;
+$brand-brown-light: #e7dcd3;
 $slightly-bold: 500;
 
 a {
@@ -44,7 +44,7 @@ a {
 
 .panel-default {
   border: 1px solid $brand-teal;
-  &>.panel-heading {
+  & > .panel-heading {
     font-weight: $slightly-bold;
     background-color: $brand-brown-light;
     border-bottom: 1px solid $brand-teal;
@@ -75,7 +75,6 @@ a {
     margin-top: 6px;
     font-size: 18px;
   }
-
 }
 
 .instagram-image-container {
@@ -94,14 +93,17 @@ a {
 }
 
 .tc {
-  text-align: center; }
+  text-align: center;
+}
 
 .sponsor {
   display: inline-block;
   margin: 15px;
   height: 100px;
-  width: auto; }
+  width: auto;
+}
 
 .sponsor img {
-  height: 100px;
-  width: auto; }
+  height: 75px;
+  width: auto;
+}
